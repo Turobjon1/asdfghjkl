@@ -15,9 +15,9 @@ fetch(url)
         let h3 = document.createElement('h3')
 
 
-        btn.innerHTML = 'More ' + iterator?.id;
-        h3.innerHTML = 'More ' + iterator?.title;
-        p.innerHTML = 'More ' + iterator?.body;
+        btn.innerHTML = 'More ' + iterator?.name;
+        h3.innerHTML = 'More ' + iterator?.username;
+        p.innerHTML = 'More ' + iterator?.email;
         card.classList.add('card')
         card.appendChild(h3)
         card.appendChild(p)
